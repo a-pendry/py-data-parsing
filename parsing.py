@@ -6,9 +6,9 @@ mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
     passwd = "mysqlisbetterthanyours!",
-    auth_plugin = "mysql_native_password"
+    auth_plugin = "mysql_native_password",
+    database = "pyparsingdb"
 )
-
 
 path = "./data/"
 
